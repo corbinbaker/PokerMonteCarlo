@@ -4,27 +4,33 @@ using namespace std;
 
 class Card
 {
-	Card(string cardName, int cardValue) {
+	bool fUp = false;
+	string cName;
+	int cValue;
 
+	Card(string cardName, int cardValue) {
+		cName = cardName;
+		cValue = cardValue;
 	}
 
 	string getCardName()
 	{
-		return string();
+		return cName;
 	}
 
 	int getCardValue()
 	{
-		return 0;
+		return cValue;
 	}
 
 	bool isFaceup()
 	{
-		return false;
+		return fUp;
 	}
 
-	void setFaceup(bool)
+	void setFaceup(bool b)
 	{
+		fUp = b;
 	}
 };
 
