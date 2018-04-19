@@ -1,12 +1,25 @@
 #include "BetHistory.h"
+#include "Bet.h"
 
 
-
-BetHistory::BetHistory()
+class BetHistory
 {
-}
+	void clearHistory() {
+
+	}
+
+	void addBet(Bet bet) {
+
+	}
+
+	int getCount() {
+
+	}
+
+	Bet getBet(int n) {
+
+	}
+
+};
 
 
-BetHistory::~BetHistory()
-{
-}
