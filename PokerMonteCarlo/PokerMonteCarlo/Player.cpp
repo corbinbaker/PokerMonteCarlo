@@ -1,12 +1,35 @@
 #include "Player.h"
+#include "BetHistory.h"
+#include "Hand.h"
 
-
-
-Player::Player()
+class Player
 {
-}
+	int getBet(Hand opponent, BetHistory bh, int bet2player, bool canRaise, int pot) {
 
+	}
 
-Player::~Player()
-{
-}
+	void setID(int id) {
+
+	}
+
+	int getID() {
+
+	}
+
+	void setHand(Hand hand) {
+
+	}
+
+	Hand getHand() {
+
+	}
+
+	void setChips(int chips) {
+
+	}
+
+	int getChips() {
+
+	}
+
+};
