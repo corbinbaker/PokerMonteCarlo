@@ -4,6 +4,7 @@
 class Bet {
 	int p, am;
 
+public:
 	Bet(int player, int amount) {
 		p = player;
 		am = amount;
