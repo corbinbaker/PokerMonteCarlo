@@ -1,0 +1,10 @@
+﻿  Player.cpp
+  HumanPlayer.cpp
+  Hand.cpp
+  Game.cpp
+  Card.cpp
+  BetHistory.cpp
+  Bet.cpp
+  AlphaPlayer.cpp
+  Generating Code...
+LINK : fatal error LNK1561: entry point must be defined
