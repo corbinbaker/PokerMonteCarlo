@@ -9,5 +9,5 @@ class Card {
 
 	bool isFaceup();
 
-	void setFaceup();
+	void setFaceup(bool);
 };

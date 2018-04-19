@@ -1,4 +1,16 @@
-﻿  Hand.cpp
+﻿  Player.cpp
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.h(4): error C2061: syntax error: identifier 'Hand'
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.h(7): error C2061: syntax error: identifier 'Hand'
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.h(8): error C3646: 'getHand': unknown override specifier
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.h(8): error C2059: syntax error: '('
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.h(8): error C2238: unexpected token(s) preceding ';'
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.cpp(6): error C2600: 'Player::Player': cannot define a compiler-generated special member function (must be declared in the class first)
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.cpp(11): error C2600: 'Player::~Player': cannot define a compiler-generated special member function (must be declared in the class first)
+  HumanPlayer.cpp
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\humanplayer.h(3): error C2504: 'Player': base class undefined
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\humanplayer.cpp(6): error C2600: 'HumanPlayer::HumanPlayer': cannot define a compiler-generated special member function (must be declared in the class first)
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\humanplayer.cpp(11): error C2600: 'HumanPlayer::~HumanPlayer': cannot define a compiler-generated special member function (must be declared in the class first)
+  Hand.cpp
 z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\hand.h(5): error C2061: syntax error: identifier 'Card'
 z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\hand.h(7): error C3646: 'getCard': unknown override specifier
 z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\hand.h(7): error C2059: syntax error: '('
@@ -10,12 +22,20 @@ z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\game.h(5): erro
 z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\game.cpp(6): error C2600: 'Game::Game': cannot define a compiler-generated special member function (must be declared in the class first)
 z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\game.cpp(11): error C2600: 'Game::~Game': cannot define a compiler-generated special member function (must be declared in the class first)
   Card.cpp
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.h(4): error C2061: syntax error: identifier 'string'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.h(6): error C3646: 'getCardName': unknown override specifier
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.h(6): error C2059: syntax error: '('
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.h(6): error C2238: unexpected token(s) preceding ';'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.cpp(6): error C2511: 'Card::Card(std::string,int)': overloaded member function not found in 'Card'
-  z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.h(3): note: see declaration of 'Card'
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.h(3): error C2065: 'string': undeclared identifier
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.h(3): error C2146: syntax error: missing ')' before identifier 'cardName'
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.h(4): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.h(4): error C2146: syntax error: missing ';' before identifier 'getCardName'
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.cpp(8): error C2872: 'string': ambiguous symbol
+  z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.h(4): note: could be 'int string'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\xstring(3998): note: or       'std::string'
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.cpp(8): error C2061: syntax error: identifier 'string'
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.cpp(12): error C2872: 'string': ambiguous symbol
+  z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.h(4): note: could be 'int string'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\xstring(3998): note: or       'std::string'
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.cpp(12): error C3646: 'getCardName': unknown override specifier
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.cpp(12): error C2059: syntax error: '('
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.cpp(13): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
   BetHistory.cpp
 z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\bethistory.h(6): error C2061: syntax error: identifier 'Bet'
 z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\bethistory.h(10): error C3646: 'getBet': unknown override specifier
@@ -27,24 +47,6 @@ z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\bethistory.cpp(
 z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\bet.cpp(6): error C2511: 'Bet::Bet(void)': overloaded member function not found in 'Bet'
   z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\bet.h(3): note: see declaration of 'Bet'
 z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\bet.cpp(11): error C2600: 'Bet::~Bet': cannot define a compiler-generated special member function (must be declared in the class first)
-  Generating Code...
-  Compiling...
   AlphaPlayer.cpp
 z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\alphaplayer.h(3): error C2504: 'Player': base class undefined
-  Generating Code...
-  Compiling...
-  HumanPlayer.cpp
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\humanplayer.h(3): error C2504: 'Player': base class undefined
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\humanplayer.cpp(6): error C2600: 'HumanPlayer::HumanPlayer': cannot define a compiler-generated special member function (must be declared in the class first)
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\humanplayer.cpp(11): error C2600: 'HumanPlayer::~HumanPlayer': cannot define a compiler-generated special member function (must be declared in the class first)
-  Generating Code...
-  Compiling...
-  Player.cpp
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.h(4): error C2061: syntax error: identifier 'Hand'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.h(7): error C2061: syntax error: identifier 'Hand'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.h(8): error C3646: 'getHand': unknown override specifier
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.h(8): error C2059: syntax error: '('
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.h(8): error C2238: unexpected token(s) preceding ';'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.cpp(6): error C2600: 'Player::Player': cannot define a compiler-generated special member function (must be declared in the class first)
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.cpp(11): error C2600: 'Player::~Player': cannot define a compiler-generated special member function (must be declared in the class first)
   Generating Code...
