@@ -1,37 +1,30 @@
 #include "Card.h"
-#include <string>
+using namespace std;
 
-class Card
+
+Card::Card(string cardName, int cardValue) {
+	cName = cardName;
+	cValue = cardValue;
+}
+
+string Card::getCardName()
 {
-private:
-	bool fUp = false;
-	string cName;
-	int cValue;
+	return cName;
+}
 
-public:
-	Card(string cardName, int cardValue) {
-		cName = cardName;
-		cValue = cardValue;
-	}
+int Card::getCardValue()
+{
+	return cValue;
+}
 
-	string getCardName()
-	{
-		return cName;
-	}
+bool Card::isFaceup()
+{
+	return fUp;
+}
 
-	int getCardValue()
-	{
-		return cValue;
-	}
+void Card::setFaceup(bool b)
+{
+	fUp = b;
+}
 
-	bool isFaceup()
-	{
-		return fUp;
-	}
-
-	void setFaceup(bool b)
-	{
-		fUp = b;
-	}
-};
 

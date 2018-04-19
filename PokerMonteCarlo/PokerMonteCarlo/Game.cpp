@@ -2,10 +2,8 @@
 #include "Player.h"
 
 
-class Game
-{
-public:
-	bool playGame(Player p0, Player p1, int &chips0, int &chips1, bool reportFlag) {
-		return false;
-	}
-};
+
+bool Game::playGame(Player p0, Player p1, int &chips0, int &chips1, bool reportFlag) {
+	return false;
+}
+

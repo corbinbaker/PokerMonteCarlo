@@ -9,6 +9,7 @@ private:
 	vector<Card> h;
 	Hand(vector<Card> vectorH);
 public:
+	Hand();
 	void clearHand();
 	void addCard(Card card);
 	int getCount();

@@ -1,29 +1,24 @@
-#include "Bet.h"
 #include "BetHistory.h"
-#include <vector>
 
-class BetHistory
-{
-private:
-	vector<Bet> bhistory;
+vector<Bet> bhistory;
 
-public:
-	void clearHistory() {
-		bhistory.clear();
-	}
 
-	void addBet(Bet bet) {
-		bhistory.push_back(bet);
-	}
+void BetHistory::clearHistory() {
+	bhistory.clear();
+}
 
-	int getCount() {
-		return bhistory.size();
-	}
+void BetHistory::addBet(Bet bet) {
+	bhistory.push_back(bet);
+}
 
-	Bet getBet(int n) {
-		return bhistory[n];
-	}
+int BetHistory::getCount() {
+	return bhistory.size();
+}
 
-};
+Bet BetHistory::getBet(int n) {
+	return bhistory[n];
+}
+
+
 
 

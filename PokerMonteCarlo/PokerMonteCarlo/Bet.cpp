@@ -1,21 +1,16 @@
 #include "Bet.h"
 
 
-class Bet {
-private:
-	int p, am;
+Bet::Bet(int player, int amount) {
+	p = player;
+	am = amount;
+}
 
-public:
-	Bet(int player, int amount) {
-		p = player;
-		am = amount;
-	}
+int Bet::getPlayer() {
+	return p;
+}
 
-	int getPlayer() {
-		return p;
-	}
+int Bet::getAmount() {
+	return am;
+}
 
-	int getAmount() {
-		return am;
-	}
-};
