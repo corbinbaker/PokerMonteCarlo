@@ -1,12 +1,30 @@
 #include "Hand.h"
+#include "Card.h"
 
 
-
-Hand::Hand()
+class Hand
 {
-}
+	void clearHand() {
 
+	}
 
-Hand::~Hand()
-{
-}
+	void addCard(Card card) {
+
+	}
+
+	int getCount() {
+
+	}
+
+	Card getCard(int n) {
+
+	}
+
+	Hand getVisible() {
+
+	}
+
+	int evaluatehand() {
+
+	}
+};
