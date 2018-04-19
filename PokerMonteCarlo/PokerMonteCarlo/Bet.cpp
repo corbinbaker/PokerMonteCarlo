@@ -1,12 +1,16 @@
 #include "Bet.h"
 
 
+class Bet {
+	Bet(int player, int amount) {
 
-Bet::Bet()
-{
-}
+	}
 
+	int getPlayer() {
 
-Bet::~Bet()
-{
-}
+	}
+
+	int getAmount() {
+
+	}
+};
