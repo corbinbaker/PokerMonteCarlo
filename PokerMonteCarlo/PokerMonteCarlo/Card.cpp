@@ -1,6 +1,4 @@
 #include "Card.h"
-#include <string>
-using namespace std;
 
 class Card
 {
@@ -8,6 +6,7 @@ class Card
 	string cName;
 	int cValue;
 
+public:
 	Card(string cardName, int cardValue) {
 		cName = cardName;
 		cValue = cardValue;
