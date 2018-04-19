@@ -1,8 +1,6 @@
 #pragma once
-class HumanPlayer
+class HumanPlayer : public Player
 {
-public:
-	HumanPlayer();
-	~HumanPlayer();
+
 };
 

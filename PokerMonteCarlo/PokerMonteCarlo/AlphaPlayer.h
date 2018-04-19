@@ -1,5 +1,5 @@
 #pragma once
-class AlphaPlayer
+class AlphaPlayer : public Player
 {
 public:
 	AlphaPlayer();

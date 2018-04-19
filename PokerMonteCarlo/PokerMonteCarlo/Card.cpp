@@ -1,12 +1,11 @@
 #include "Card.h"
+#include <string>
+using namespace std;
 
-
-
-Card::Card()
+Card::Card(string cardName, int cardValue)
 {
 }
 
 
-Card::~Card()
-{
-}
+
+

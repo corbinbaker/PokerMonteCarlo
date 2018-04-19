@@ -1,8 +1,13 @@
 #pragma once
 class BetHistory
 {
-public:
-	BetHistory();
-	~BetHistory();
+	void clearHistory();
+
+	void addBet(Bet bet);
+
+	int getCount();
+
+	Bet getBet(int n);
+
 };
 
