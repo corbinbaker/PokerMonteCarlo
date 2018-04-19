@@ -2,6 +2,7 @@
 
 
 class Bet {
+private:
 	int p, am;
 
 public:

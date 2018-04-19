@@ -1,9 +1,10 @@
-#include "Player.h"
+
 #include "BetHistory.h"
 #include "Hand.h"
 
 class Player
 {
+private:
 	Hand pHand;
 	BetHistory bhistory;
 	int pID;
@@ -11,7 +12,7 @@ class Player
 
 public:
 	int getBet(Hand opponent, BetHistory bh, int bet2player, bool canRaise, int pot) {
-
+		return 0;
 	}
 
 	void setID(int id) {

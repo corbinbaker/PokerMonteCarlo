@@ -1,9 +1,9 @@
 #include "Hand.h"
 #include "Card.h"
-#include <vector>
 
 class Hand
 {
+private:
 	vector<Card> h;
 
 	Hand(vector<Card> vectorH) {

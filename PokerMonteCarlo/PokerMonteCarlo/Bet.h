@@ -1,9 +1,10 @@
 #pragma once
 class Bet
 {
+private:
 	int p, am;
 public:
-	Bet(int player, int amount);
+	Bet(int, int);
 	int getPlayer();
 	int getAmount();
 };

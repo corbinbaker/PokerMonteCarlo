@@ -1,7 +1,9 @@
 #include "Card.h"
+#include <string>
 
 class Card
 {
+private:
 	bool fUp = false;
 	string cName;
 	int cValue;

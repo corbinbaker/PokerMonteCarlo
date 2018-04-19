@@ -1,11 +1,12 @@
-#include "BetHistory.h"
 #include "Bet.h"
+#include "BetHistory.h"
 #include <vector>
-
 
 class BetHistory
 {
+private:
 	vector<Bet> bhistory;
+
 public:
 	void clearHistory() {
 		bhistory.clear();

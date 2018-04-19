@@ -1,91 +1,40 @@
-﻿  Player.cpp
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.h(4): error C2061: syntax error: identifier 'Hand'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.h(7): error C2061: syntax error: identifier 'Hand'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.h(8): error C3646: 'getHand': unknown override specifier
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.h(8): error C2059: syntax error: '('
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.h(8): error C2238: unexpected token(s) preceding ';'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\bethistory.h(6): error C2061: syntax error: identifier 'Bet'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\bethistory.h(10): error C3646: 'getBet': unknown override specifier
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\bethistory.h(10): error C2059: syntax error: '('
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\bethistory.h(10): error C2238: unexpected token(s) preceding ';'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\hand.h(5): error C2061: syntax error: identifier 'Card'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\hand.h(7): error C3646: 'getCard': unknown override specifier
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\hand.h(7): error C2059: syntax error: '('
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\hand.h(7): error C2238: unexpected token(s) preceding ';'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.cpp(6): error C2011: 'Player': 'class' type redefinition
-  z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.h(3): note: see declaration of 'Player'
-  main.cpp
+﻿  main.cpp
+  Player.cpp
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\bethistory.h(8): error C2143: syntax error: missing ';' before '<'
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\bethistory.h(8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\bethistory.h(8): error C2238: unexpected token(s) preceding ';'
   HumanPlayer.cpp
 z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\humanplayer.h(3): error C2504: 'Player': base class undefined
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\humanplayer.h(4): error C2061: syntax error: identifier 'Hand'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.h(4): error C2061: syntax error: identifier 'Hand'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.h(7): error C2061: syntax error: identifier 'Hand'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.h(8): error C3646: 'getHand': unknown override specifier
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.h(8): error C2059: syntax error: '('
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.h(8): error C2238: unexpected token(s) preceding ';'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\hand.h(5): error C2061: syntax error: identifier 'Card'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\hand.h(7): error C3646: 'getCard': unknown override specifier
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\hand.h(7): error C2059: syntax error: '('
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\hand.h(7): error C2238: unexpected token(s) preceding ';'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\bethistory.h(6): error C2061: syntax error: identifier 'Bet'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\bethistory.h(10): error C3646: 'getBet': unknown override specifier
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\bethistory.h(10): error C2059: syntax error: '('
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\bethistory.h(10): error C2238: unexpected token(s) preceding ';'
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\humanplayer.h(5): error C2061: syntax error: identifier 'Hand'
 z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\humanplayer.cpp(7): error C2011: 'HumanPlayer': 'class' type redefinition
   z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\humanplayer.h(2): note: see declaration of 'HumanPlayer'
   Hand.cpp
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\hand.h(5): error C2061: syntax error: identifier 'Card'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\hand.h(7): error C3646: 'getCard': unknown override specifier
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\hand.h(7): error C2059: syntax error: '('
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\hand.h(7): error C2238: unexpected token(s) preceding ';'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.h(4): error C2061: syntax error: identifier 'string'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.h(6): error C3646: 'getCardName': unknown override specifier
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.h(6): error C2059: syntax error: '('
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.h(6): error C2238: unexpected token(s) preceding ';'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\hand.cpp(6): error C2011: 'Hand': 'class' type redefinition
-  z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\hand.h(3): note: see declaration of 'Hand'
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\hand.cpp(5): error C2011: 'Hand': 'class' type redefinition
+  z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\hand.h(7): note: see declaration of 'Hand'
   Game.cpp
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\game.h(5): error C2061: syntax error: identifier 'Player'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.h(4): error C2061: syntax error: identifier 'Hand'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.h(7): error C2061: syntax error: identifier 'Hand'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.h(8): error C3646: 'getHand': unknown override specifier
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.h(8): error C2059: syntax error: '('
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.h(8): error C2238: unexpected token(s) preceding ';'
 z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\game.cpp(6): error C2011: 'Game': 'class' type redefinition
-  z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\game.h(4): note: see declaration of 'Game'
+  z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\game.h(5): note: see declaration of 'Game'
   Card.cpp
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.h(4): error C2061: syntax error: identifier 'string'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.h(6): error C3646: 'getCardName': unknown override specifier
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.h(6): error C2059: syntax error: '('
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.h(6): error C2238: unexpected token(s) preceding ';'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.cpp(6): error C2011: 'Card': 'class' type redefinition
-  z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.h(3): note: see declaration of 'Card'
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.h(7): error C3646: 'cName': unknown override specifier
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.h(7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.h(11): error C2061: syntax error: identifier 'string'
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.h(12): error C3646: 'getCardName': unknown override specifier
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.h(12): error C2059: syntax error: '('
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.h(12): error C2238: unexpected token(s) preceding ';'
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.cpp(5): error C2011: 'Card': 'class' type redefinition
+  z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\card.h(4): note: see declaration of 'Card'
   BetHistory.cpp
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\bethistory.h(6): error C2061: syntax error: identifier 'Bet'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\bethistory.h(10): error C3646: 'getBet': unknown override specifier
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\bethistory.h(10): error C2059: syntax error: '('
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\bethistory.h(10): error C2238: unexpected token(s) preceding ';'
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\bethistory.h(8): error C2143: syntax error: missing ';' before '<'
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\bethistory.h(8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\bethistory.h(8): error C2238: unexpected token(s) preceding ';'
 z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\bethistory.cpp(6): error C2011: 'BetHistory': 'class' type redefinition
-  z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\bethistory.h(3): note: see declaration of 'BetHistory'
+  z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\bethistory.h(6): note: see declaration of 'BetHistory'
   Bet.cpp
 z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\bet.cpp(4): error C2011: 'Bet': 'class' type redefinition
   z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\bet.h(3): note: see declaration of 'Bet'
   AlphaPlayer.cpp
 z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\alphaplayer.h(3): error C2504: 'Player': base class undefined
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\alphaplayer.h(4): error C2061: syntax error: identifier 'Hand'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.h(4): error C2061: syntax error: identifier 'Hand'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.h(7): error C2061: syntax error: identifier 'Hand'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.h(8): error C3646: 'getHand': unknown override specifier
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.h(8): error C2059: syntax error: '('
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\player.h(8): error C2238: unexpected token(s) preceding ';'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\hand.h(5): error C2061: syntax error: identifier 'Card'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\hand.h(7): error C3646: 'getCard': unknown override specifier
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\hand.h(7): error C2059: syntax error: '('
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\hand.h(7): error C2238: unexpected token(s) preceding ';'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\bethistory.h(6): error C2061: syntax error: identifier 'Bet'
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\bethistory.h(10): error C3646: 'getBet': unknown override specifier
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\bethistory.h(10): error C2059: syntax error: '('
-z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\bethistory.h(10): error C2238: unexpected token(s) preceding ';'
+z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\alphaplayer.h(5): error C2061: syntax error: identifier 'Hand'
 z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\alphaplayer.cpp(7): error C2011: 'AlphaPlayer': 'class' type redefinition
   z:\adit\desktop\gamedesign\proj2\pokermontecarlo\pokermontecarlo\alphaplayer.h(2): note: see declaration of 'AlphaPlayer'
   Generating Code...

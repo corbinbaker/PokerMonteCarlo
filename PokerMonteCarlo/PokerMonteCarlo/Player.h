@@ -1,18 +1,22 @@
 #pragma once
+#include "Hand.h"
+#include "BetHistory.h"
+
 class Player
 {
+private:
 	Hand pHand;
 	BetHistory bhistory;
 	int pID;
 	int pChips;
 
 public:
-	int getBet(Hand opponent, BetHistory bh, int bet2player, bool canRaise, int pot);
-	void setID(int id);
+	int getBet(Hand, BetHistory, int, bool, int );
+	void setID(int);
 	int getID();
-	void setHand(Hand hand);
+	void setHand(Hand);
 	Hand getHand();
-	void setChips(int chips);
+	void setChips(int);
 	int getChips();
 };
 
