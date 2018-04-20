@@ -119,6 +119,7 @@
     <ClInclude Include="Hand.h" />
     <ClInclude Include="HumanPlayer.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerType.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AlphaPlayer.cpp" />
