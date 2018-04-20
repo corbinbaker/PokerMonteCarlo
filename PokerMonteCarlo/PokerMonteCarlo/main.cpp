@@ -7,8 +7,8 @@ int main()
 	Game g;
 	HumanPlayer hp;
 	AlphaPlayer ap;
-	int hpChips = 100;
-	int apChips = 100;
+	int hpChips = 1000;
+	int apChips = 1000;
 	bool IO = true;
 	g.playGame(hp, ap, hpChips, apChips, IO);
 
