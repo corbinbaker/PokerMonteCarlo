@@ -4,6 +4,7 @@
 class HumanPlayer : public Player
 {
 private:
+	void getInput();
 	void call();
 	void bet();
 	void quit();
