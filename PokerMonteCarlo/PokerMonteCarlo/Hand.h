@@ -15,6 +15,6 @@ public:
 	int getCount();
 	Card getCard(int n);
 	Hand getVisible();
-	int evaluatehand();
+	int evaluateHand();
 };
 

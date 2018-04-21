@@ -38,7 +38,7 @@ Hand Hand::getVisible() {
 	return Hand(out);
 }
 
-int Hand::evaluatehand() {
+int Hand::evaluateHand() {
 	int out = 0;
 	for (Card c : h)
 	{
